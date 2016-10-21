@@ -3,5 +3,11 @@ import tensorflow as tf
 
 task_index = int(sys.argv[1])
 
-cluster = tf.train.ClusterSpec({"local": ["localhost:2222", "localhost:2223"]})
-server = tf.train.Server(cluster, job_name="local", task_index=task_index)
+import json
+
+with open('clusterspec.json', 'r') as f:
+    clusterspec = json.load(f)
+
+    cluster = tf.ClusterSpec(clusterspec)
+    server = tf.train.Server(cluster, job_name="worker", task_index=task_index)
+    server.join()
