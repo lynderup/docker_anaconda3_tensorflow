@@ -4,7 +4,7 @@ import json
 with open('clusterspec.json', 'r') as f:
     clusterspec = json.load(f)
 
-cluster = tf.ClusterSpec(clusterspec)
+cluster = tf.train.ClusterSpec(clusterspec)
 server = tf.train.Server(cluster, job_name="master", task_index=0)
 
 a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
