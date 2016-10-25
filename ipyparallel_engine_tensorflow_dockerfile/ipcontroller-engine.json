@@ -1,0 +1,17 @@
+{
+  "registration": 9000,  
+  "hb_pong": 9001,
+  "mux": 9002,
+  "task": 9003,
+  "hb_ping": 9004,
+  "control": 9005,
+  "iopub": 9006,
+  "key": "b46e47db-df8c-4acc-83f8-af4e38419801",
+  "pack": "json",
+  "location": "10.13.37.1",
+  "ssh": "",
+  "signature_scheme": "hmac-sha256",
+  "unpack": "json",
+  "interface": "tcp://*"
+}
+
