@@ -13,6 +13,6 @@ COPY ipcontroller-client.json .ipython/profile_default/security/
 WORKDIR "/home"
 
 EXPOSE 2222
-EXPOSE 9000-9006
+EXPOSE 9000-9007
 
 CMD [ "/bin/bash" ]
