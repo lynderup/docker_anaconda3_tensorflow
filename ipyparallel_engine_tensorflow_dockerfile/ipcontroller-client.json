@@ -1,17 +1,16 @@
 {
   "registration": 9000,
-  "mux": 9020,
-  "task": 9030,
-  "control": 9050,
-  "iopub": 9060,
-  "notification": 9070,
-  "key": "b46e47db-df8c-4acc-83f8-af4e38419801",
-  "pack": "json",
-  "location": "10.13.37.1",
-  "ssh": "",
+  "notification": 9012,
+  "control": 9013,
+  "task": 9014,
+  "iopub": 9015,
+  "mux": 9016,
+  "key": "63277384-ead5-474e-a4f0-3573a5d3fc22",
   "signature_scheme": "hmac-sha256",
-  "unpack": "json",
+  "ssh": "",
+  "interface": "tcp://*",
+  "pack": "json",
   "task_scheme": "leastload",
-  "interface": "tcp://*"
+  "unpack": "json",
+  "location": "10.13.37.1"
 }
-

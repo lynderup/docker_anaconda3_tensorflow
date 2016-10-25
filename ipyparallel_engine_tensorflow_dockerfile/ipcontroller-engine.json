@@ -1,17 +1,16 @@
 {
-  "registration": 9000,  
-  "hb_pong": 9010,
-  "mux": 9020,
-  "task": 9030,
-  "hb_ping": 9040,
-  "control": 9050,
-  "iopub": 9060,
-  "key": "b46e47db-df8c-4acc-83f8-af4e38419801",
-  "pack": "json",
-  "location": "10.13.37.1",
-  "ssh": "",
+  "registration": 9000,
+  "hb_ping": 9001,
+  "hb_pong": 9002,
+  "control": 9003,
+  "task": 9004,
+  "iopub": 9005,
+  "mux": 9006,
+  "key": "63277384-ead5-474e-a4f0-3573a5d3fc22",
   "signature_scheme": "hmac-sha256",
-  "unpack": "json",
-  "interface": "tcp://*"
+  "ssh": "",
+  "interface": "tcp://*",
+  "pack": "json",  
+  "location": "10.13.37.1",
+  "unpack": "json"
 }
-
